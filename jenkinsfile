@@ -2,7 +2,7 @@ pipeline{
     agent any
     stages{
         stage(Checkout code for your app){
-            sh git clone https://github.com/monbostest/nodejs-image-demo.git
+            sh echo "hello World"
         }
     }
 }
